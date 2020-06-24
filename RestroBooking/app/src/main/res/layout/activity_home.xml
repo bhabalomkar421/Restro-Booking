@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomeActivity">
+
+    <ScrollView android:layout_marginTop="30dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="392dp"
+                android:layout_height="89dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="8dp"
+                android:gravity="center_horizontal"
+                android:text="Now Book a Resturant"
+                />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
+                android:text="Restuarants near you" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="250dp"
+                android:orientation="horizontal">
+
+                <HorizontalScrollView
+                    android:id="@+id/horizontalScrollView"
+                    android:layout_width="match_parent"
+                    android:layout_height="350dp">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="125dp">
+
+                        <Button
+                            android:id="@+id/imageButton1"
+                            android:layout_width="166dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="20dp"
+                            android:clickable="true"
+                            android:drawableTop="@drawable/hotel1"
+                            android:text="Sheetal Resturant" />
+
+                        <Button
+                            android:id="@+id/imageButton2"
+                            android:layout_width="166dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="20dp"
+                            android:clickable="true"
+                            android:drawableTop="@drawable/hotel2"
+                            android:text="Hotel Desi Tadka" />
+
+                        <Button
+                            android:id="@+id/imageButton3"
+                            android:layout_width="166dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="20dp"
+                            android:clickable="true"
+                            android:drawableTop="@drawable/hotel3"
+                            android:text="Ramdev Resturant" />
+
+                        <Button
+                            android:id="@+id/imageButton4"
+                            android:layout_width="166dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="20dp"
+                            android:clickable="true"
+                            android:drawableTop="@drawable/hotel4"
+                            android:text="Kshir Sagar Restro" />
+
+                        <Button
+                            android:id="@+id/imageButton5"
+                            android:layout_width="166dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="20dp"
+                            android:adjustViewBounds="true"
+                            android:clickable="true"
+                            android:drawableTop="@drawable/hotel5"
+                            android:text="Global Restraurant" />
+
+                    </LinearLayout>
+                </HorizontalScrollView>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+        </LinearLayout>
